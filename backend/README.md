@@ -69,7 +69,7 @@ POST a single todo:
 PUT (update) a todo:
 
   1.	Method: PUT
-  2.	URL: http://localhost:8080/todos/id (ex: http://localhost:8080/todos/1 )or deployed link
+  2.	URL: http://localhost:8080/todos/id (ex: http://localhost:8080/todos/1 ) or the deployed link 
   3.	Body → raw → JSON
   Ex:
   {
@@ -80,6 +80,6 @@ PUT (update) a todo:
      
 DELETE a todo:
 
-  •	Method: DELETE
-  •	URL:  http://localhost:8080/todos/id
-  •	Click Send → should return status 204 (No Content) if successful.
+  1. Method: DELETE
+  2. URL:  http://localhost:8080/todos/id or the deployed link
+  3. Click Send → should return status 204 (No Content) if successful.
