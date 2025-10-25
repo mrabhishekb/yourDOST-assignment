@@ -11,6 +11,9 @@ COPY .mvn .mvn
 # Copy all source code
 COPY src ./src
 
+# ✅ Copy todos.json into the app directory
+COPY todos.json ./todos.json
+
 # Give execute permission to mvnw
 RUN chmod +x mvnw
 
